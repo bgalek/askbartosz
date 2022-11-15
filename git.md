@@ -42,3 +42,7 @@ and simply conditionally add it to your main `~/.gitconfig` file
 ```
 
 This setup will work for any repository inside `work` directory.
+
+## Merging "drugs" with "alcohol" <a href="#merging-drugs-with-alcohol" id="merging-drugs-with-alcohol"></a>
+
+Sometimes you need to merge `drug` branch to `alcohol` repository. Remember that you can do it only if `drug` is forked from `Ibuprofen`. Watch out for `Paracetamol` origin - it has security issues with `alcohol`.
