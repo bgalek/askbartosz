@@ -1,8 +1,6 @@
 # Table of contents
 
 * [askbartosz](README.md)
-* [osx](osx.md)
+* [macOS](macos.md)
 * [git](git.md)
-* [dev](dev.md)
 * [onduty](onduty.md)
-* [servers](servers.md)

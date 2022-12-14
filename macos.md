@@ -1,8 +1,12 @@
-# osx
+# macOS
 
-## **brew casks**
+## macOS without root user&#x20;
 
-Brew does not require root privileges by design! If you installed brew with admin rights and then lost permissions you need to update your cask folder! This happens also when ITS installs brew for you. To change default homebrew cask directory use this command:
+When working on company hardware you are probably using it without administrative access. Let's make it as smooth as possible.
+
+### **brew casks**
+
+Brew does not require root privileges by design! If you installed brew with admin rights and then lost permissions you need to update your cask folder! This also happens when ITS installs brew for you. To change the default homebrew cask directory use this command:
 
 ```
 echo "export HOMEBREW_CASK_OPTS=\"--appdir=$HOME/Applications\"" >> $HOME/.zshrc
@@ -51,12 +55,4 @@ Remember to clear your old brew junk, from time to time:
 
 `brew update && brew cleanup`
 
-If You're using Jetbrains Toolkit check this option:
-
-![jetbrains toolbox settings](http://127.0.0.1:8000/images/jetbrains-toolkit.png)
-
-``
-
-#### &#x20;<a href="#short-on-disk-space" id="short-on-disk-space"></a>
-
-## Docker
+If You're using Jetbrains Toolkit uncheck "Keep previous versions of tools to enable instant rollback"

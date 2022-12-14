@@ -7,5 +7,5 @@ description: >-
 # askbartosz
 
 {% hint style="info" %}
-**Good to know:** This is still "work in progress". Be patient.
+**Good to know:** This is still "work in progress". Feedback appreciated.
 {% endhint %}
