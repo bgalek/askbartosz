@@ -12,7 +12,7 @@ If you're afraid that you would need to change your daily routine drastically, f
 
 I've been doing on duty for about 10 years now, and believe me:
 
-* You should never make any development at late hours just because there is a problem with production. You are tired, alone and it's late - I'm sure you can easily make it worse. If it worked a few hours ago - you just need to inspect what has changed. If restarting the app will help - there is no shame with this at 2:29 a.m. If it could be an earlier deployment - simply roll back and discuss what happened tomorrow. There is really only a tiny % of situations where you are required to make any decisions by yourself at night.
+* You should never make any development at late hours just because there is a problem with production. You are tired, alone and it's late - I'm sure you can easily make it worse. If it worked a few hours ago - you just need to inspect what has changed. If restarting the app will help - there is no shame with this at 2:29 a.m. If it could be an earlier deployment - simply rollback and discuss what happened tomorrow. There is really only a small % of situations where you are required to make any decisions by yourself at night.
 * If the problem occurred because of one of your dependencies - i.e. another application/service - pass the incident to them! Please remember - those people are similar to you, they know their ways around their stuff and will make better decisions about their domain.
 * You should not change your life because of on your duty - if you're running/cycling/whatever - just take your phone with you. Smartwatch is always helpful - for example at the swimming pool!&#x20;
 * Be a friend - if you're stuck in traffic, call your teammates - maybe you won't need to open your laptop on the backseat if somebody is at home just relaxing and will help you out.
@@ -22,21 +22,7 @@ I've been doing on duty for about 10 years now, and believe me:
 
 ### **On-duty organization**
 
-* Always have a file/calendar with current on-duty schedules - this can be lifesaving.
+* Always have a place with current on-duty schedules - this can be lifesaving.
 * Don't rush people by calling in every 5 mins, if somebody is working on a fix - please be patient.
 * Have fair, transparent on-duty rules to eliminate exploitation.
 * Make sure people know that they can count on each other, and rotate on-duty roles through teams.
-
-### **Tooling**
-
-Have ELK stack to easily check logs.
-
-Have a grafana-like dashboard to see system behavior.
-
-Use alerting software like Pager Duty to manage current on-duty shifts.
-
-Don't rush on fixing things before you know how many users are affected! Maybe it's only internal traffic, or maybe it's just a strange web browser causing problems.
-
-### **Good sleep**
-
-After an intervention during the night - please make sure you get some time to unwind. Nothing is more stressful than an alert at 3:00. Try sports or just a nap.
